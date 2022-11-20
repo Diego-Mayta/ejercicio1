@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a4.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="titulo">
+        <h1>verificando las identidades</h1>
+    </header>
+    <p>
+        dos identidades trigonométricas están dadas por :<br>
+        <img src="formula1.png" width="1200px"> <br>
+        para cada parte, verifique que la identidad sea correcta calculando los valores de los lados izquierdo y derecho de las ecuaciones, sustituyendo x=20 o cualquier valor
+    </p>
+    <section>
+        <h2>Identidad A</h2>
+        <div class="respuesta"> 
+            <label class="letritas"> introduzca el valor de x :</label>
+            <input type="number" id=a placeholder="ejemplo 20">
+            <button onclick="identidad()">Calcular</button>
+            <TABLE align="center">
+                <tr>
+                    <td>
+                        <h5 class="letritas">valor de la izquierda :  </h5> 
+                    </td>
+                    <td>
+                        <div class="te" id="identidad"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5 class="letritas">valor de la derecha :</h5> 
+                    </td>
+                    <td>
+                        <div class="te" id="pi2"></div>
+                    </td>
+                </tr>
+                    <h5 class="letritas" align="center">verdadero </h5>
+            </TABLE> 
+        </div>
+        </div>
+        <h2> Identidad B</h2>
+        <div class="respuesta"> 
+            <label class="letritas"> introduzca el valor de x :</label>
+            <input type="number" id=b placeholder="ejemplo 20">
+            <button onclick="identidad2()">Calcular</button>
+            <TABLE align="center">
+                <tr>
+                    <td>
+                        <h5 class="letritas">valor de la izquierda :  </h5> 
+                    </td>
+                    <td>
+                        <div class="te" id="identidad2"></div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <h5 class="letritas">valor de la derecha :</h5> 
+                    </td>
+                    <td>
+                        <div class="te" id="pi3"></div>
+                    </td>
+                </tr>
+                        <h5 class="letritas" align="center">verdadero </h5> 
+            </TABLE> 
+        </div>
+        </div>
+    </section>
+    <script src="a4.js"></script>
+</body>
+</html>
